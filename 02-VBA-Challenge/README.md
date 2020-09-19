@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VBA Homework - The VBA of Wall Street
 
 ## Background
@@ -69,3 +70,6 @@ You are well on your way to becoming a programmer and Excel master! In this home
 ### Copyright
 
 Trilogy Education Services © 2019. All Rights Reserved.
+=======
+#VBA Homework
+>>>>>>> 19158bee932ad2f97f9548e8f882c4837a5f628b
