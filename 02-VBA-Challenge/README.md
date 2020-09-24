@@ -10,4 +10,4 @@ If so, set that cell as the end date.
 
 Use the start and end dates in the data analysis in table #2. 
 
-Similarly, use for loops to iterate through table #2 to obtain maximum and minimum values. 
+Similarly, use for loops to iterate through table #2 to obtain maximum and minimum values in table #3. 
