@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 02 VBA Homework by Kevin Low
 
 First used the Cells command to set the titles for the two major tables.
