@@ -62,9 +62,9 @@ finalOutput = outputHeader + outputMain + outputFooter
 print(finalOutput)
 
 
-# Output analysis file path
+# Find file path for analysis
 outputPath = os.path.join("analysis", "analysis.txt")
 
-# Opens the output file, then writes the output file to the text file
+# Opens the analysis file, then writes the output file into it
 with open(outputPath, 'w') as outputFile:
     outputFile.write(finalOutput)
