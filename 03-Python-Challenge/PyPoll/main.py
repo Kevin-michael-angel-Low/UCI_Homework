@@ -7,15 +7,13 @@ voterTot = 0
 voteDict =  {}
 percentDict = {}
 largestVote = 0
-
 outputMain = ""
 
-# csv open path
+# path to csv
 pyPollPath = os.path.join("Resources", "PyPoll.csv")
 
 with open(pyPollPath) as pollFile:
     pollReader = csv.reader(pollFile, delimiter = ',')
-
     # skip header
     next(pollFile)
 
@@ -29,14 +27,15 @@ with open(pyPollPath) as pollFile:
             if row[2] not in voteDict:
                 voteDict[row[2]] = 0
                 percentDict[row[2]] = 0
+
             #loop through vote dictionary's keys
             for keys in voteDict.keys():
-                # if the dictionary has a key equal to candidate, adds 1
+                # if the dictionary has a key equal to candidate, adds 1 to vote
                 if row[2] == keys:
                     voteDict[keys] = voteDict[keys] + 1
         
 
-# Find the winner:
+# Find the winner
 winner = max(voteDict, key = voteDict.get)
 
 # create a dictionary of percentage of votes won
@@ -58,6 +57,7 @@ outputFooter = (f"---------------------------\n"
                 f"---------------------------"
 )
 
+# final output to terminal
 finalOutput = outputHeader + outputMain + outputFooter
 print(finalOutput)
 
