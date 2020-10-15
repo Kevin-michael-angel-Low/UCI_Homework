@@ -1,0 +1,2 @@
+# UCI Data Analytics: Matplotlib HW - Kevin Low
+This folder contains the matplotlib homework for the UCI data analyitics bootcamp. The 3 conclusions are located as a markdown section within the main ipymb file. 
